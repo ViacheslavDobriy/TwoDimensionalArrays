@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\GeekBrains\C#\Seminars\Two-dimensional arrays\02Task\bin\Debug\net6.0\02Task.exe
+C:\Users\user\Desktop\GeekBrains\C#\Seminars\Two-dimensional arrays\02Task\bin\Debug\net6.0\02Task.deps.json
+C:\Users\user\Desktop\GeekBrains\C#\Seminars\Two-dimensional arrays\02Task\bin\Debug\net6.0\02Task.runtimeconfig.json
+C:\Users\user\Desktop\GeekBrains\C#\Seminars\Two-dimensional arrays\02Task\bin\Debug\net6.0\02Task.dll
+C:\Users\user\Desktop\GeekBrains\C#\Seminars\Two-dimensional arrays\02Task\bin\Debug\net6.0\ref\02Task.dll
+C:\Users\user\Desktop\GeekBrains\C#\Seminars\Two-dimensional arrays\02Task\bin\Debug\net6.0\02Task.pdb
+C:\Users\user\Desktop\GeekBrains\C#\Seminars\Two-dimensional arrays\02Task\obj\Debug\net6.0\02Task.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\GeekBrains\C#\Seminars\Two-dimensional arrays\02Task\obj\Debug\net6.0\02Task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\GeekBrains\C#\Seminars\Two-dimensional arrays\02Task\obj\Debug\net6.0\02Task.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\GeekBrains\C#\Seminars\Two-dimensional arrays\02Task\obj\Debug\net6.0\02Task.AssemblyInfo.cs
+C:\Users\user\Desktop\GeekBrains\C#\Seminars\Two-dimensional arrays\02Task\obj\Debug\net6.0\02Task.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\GeekBrains\C#\Seminars\Two-dimensional arrays\02Task\obj\Debug\net6.0\02Task.dll
+C:\Users\user\Desktop\GeekBrains\C#\Seminars\Two-dimensional arrays\02Task\obj\Debug\net6.0\ref\02Task.dll
+C:\Users\user\Desktop\GeekBrains\C#\Seminars\Two-dimensional arrays\02Task\obj\Debug\net6.0\02Task.pdb
+C:\Users\user\Desktop\GeekBrains\C#\Seminars\Two-dimensional arrays\02Task\obj\Debug\net6.0\02Task.genruntimeconfig.cache
