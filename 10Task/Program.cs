@@ -25,37 +25,34 @@ void ShowArray(int[,] Array)
         Console.WriteLine();
     }
 }
-int[] FoundRow(int[,] Array)
+int[] FoundRow(int[,] matrix)
 {
-    int min = Array[0,0];
-    int importantRow = 0;
-    for(int i = 0; i<Array.GetLength(0);i++)
+    int[] sumRow = new int[matrix.GetLength(0)];
+    for(int i = 0; i < matrix.GetLength(0);i++)
     {
-        for(int j = 0; j<Array.GetLength(1);j++)
+        for(int j = 0; j < matrix.GetLength(1);j++)
         {
-            if(Array[i,j]<min)
-            {
-                min = Array[i,j];
-                importantRow = i;
-            }
+            sumRow[i] += matrix[i,j];
         }
     }
-    Console.WriteLine($"Минимальный элемент массива - {min}");
-    Console.Write($"Поэтому на экране {importantRow+1} ряд массива: ");
-    int[] importantArray = new int[Array.GetLength(1)];
-    for(int i = 0; i<importantArray.Length; i++)
-    {
-        importantArray[i] = Array[importantRow,i];
-    }
-    return importantArray;
-}
-void ShowRow(int[] Array)
+    return sumRow;
+} 
+(int,int) LessValue(int[] Line)
 {
-    for(int i = 0; i< Array.Length; i++)
-        Console.Write($"{Array[i]} ");
-    Console.WriteLine();
+    int min = Line[0];
+    int index = 0;
+    for(int i = 1; i < Line.Length; i++)
+    {
+        if(min>Line[i])
+        {
+            min = Line[i];
+            index = i;
+        }
+    }
+    return (min,index);
 }
 int[,] randomArray = FillArray();
 ShowArray(randomArray);
-int[] RowMin = FoundRow(randomArray);
-ShowRow(RowMin);
+Console.WriteLine();
+int[] RowSum = FoundRow(randomArray);
+Console.WriteLine("Строка под номером {0} обладает наименьшей суммой элементов. Сумма равна {1}", LessValue(RowSum).Item2+1, LessValue(RowSum).Item1 );
